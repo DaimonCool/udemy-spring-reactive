@@ -1,0 +1,16 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.7.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+}
+
+group = 'com.daimon.reactivespring'
+version = '0.0.1-SNAPSHOT'
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+}
